@@ -304,7 +304,6 @@
 		95A54558BAD42D597FA45CC8 /* HCLongLongReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AA1FE90178C436172FEA91 /* HCLongLongReturnGetter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		97D8796F0BB64BF7CDEDDC39 /* MKTIntReturnSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = ABAC0FF6A748301D8E5484AF /* MKTIntReturnSetter.h */; };
 		9826FCB940DE885621BF038E /* SPTExampleGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B2C37E6532004A1DD28659 /* SPTExampleGroup.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
-		982EC3D6F39E73E37CE8633C /* HCIsInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E78D937F49DF2F69B36B2D /* HCIsInstanceOf.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		9918AAE83EE7228056AD2AD7 /* MKTBaseMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 20710600BE46E6D34B15841C /* MKTBaseMockObject.h */; };
 		99D580C34FC84EC5056BB8AF /* OHHTTPStubsResponse+HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 299AE8EC47F1E3F57064120A /* OHHTTPStubsResponse+HTTPMessage.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
 		9A12541F2C60B5E14E85502E /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEC480E006206999A00C77D /* EXPUnsupportedObject.m */; };
@@ -364,6 +363,7 @@
 		BBF0324A669C04ECFE710F2A /* MKTOngoingStubbing.m in Sources */ = {isa = PBXBuildFile; fileRef = 7516C58726752FB4EC7487B0 /* MKTOngoingStubbing.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		BCAD5736BF3DB2C413998F64 /* CGGeometry-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF80B5832EAAD4B617D6C72 /* CGGeometry-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-DKIF_XCTEST -fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
 		BCDD935AF465819B1536DC2C /* EXPMatchers+beginWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 0733D38AF6AA86BE10AA2976 /* EXPMatchers+beginWith.m */; };
+		BDC8057F1B0CE73300A36935 /* HCIsInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E78D937F49DF2F69B36B2D /* HCIsInstanceOf.m */; };
 		BEC3893C19CC6224B1A84A24 /* HCUnsignedShortReturnGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 061C4B3741D11CB9B5A2233E /* HCUnsignedShortReturnGetter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		BFA678E44AB4935AA6661A4D /* MKTLongLongArgumentGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = CC891AA590603F1C57FA4905 /* MKTLongLongArgumentGetter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		BFE28EED6F477A966F5A13D2 /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BABC848C60D3956938B7ECA /* NSObject+Expecta.h */; };
@@ -2368,6 +2368,7 @@
 				180C09AFCD968C4962F71E16 /* SPTCallSite.m in Sources */,
 				2A2E52A59A8F04DAA9EC37F3 /* SPTCompiledExample.m in Sources */,
 				AC86D32D2ED14FAE040D39B9 /* SPTExample.m in Sources */,
+				BDC8057F1B0CE73300A36935 /* HCIsInstanceOf.m in Sources */,
 				9826FCB940DE885621BF038E /* SPTExampleGroup.m in Sources */,
 				EDF50C958C5B428CAA96E8D3 /* SPTSharedExampleGroups.m in Sources */,
 				11448BE97631743D3F10CFE6 /* SPTSpec.m in Sources */,
@@ -2606,7 +2607,6 @@
 				92B39552D4FCF7545B4E753E /* HCIsEqualIgnoringWhiteSpace.m in Sources */,
 				E0F532B1EE09BDD0F16302B3 /* HCIsEqualToNumber.m in Sources */,
 				252DCD01869B9FDE08FC4657 /* HCIsIn.m in Sources */,
-				982EC3D6F39E73E37CE8633C /* HCIsInstanceOf.m in Sources */,
 				2C470E7D0AE1C03F5E41FD76 /* HCIsNil.m in Sources */,
 				E4EF7FBA6D04CE60A0B89E23 /* HCIsNot.m in Sources */,
 				5999062422AAFCD607053374 /* HCIsSame.m in Sources */,
